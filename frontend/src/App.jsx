@@ -13,7 +13,7 @@ import useAuthUser from './hooks/useAuthUser.js'
 import Layout from './component/Layout.jsx'
 import useThemeStore from '../store/useThemeStore.js'
 import NotificationPage from './Pages/NotificationPage.jsx'
-import ChatPage from './Pages/chat'
+import ChatPage from './Pages/Chat.jsx'
 function App() {
 
     const {authUser,isLoading}=useAuthUser();
